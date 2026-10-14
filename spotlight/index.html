@@ -1,0 +1,1509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="first" style="background-color: #343a38 ">
+    <div class="container-fluid ">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container rounded-5 p-2 px-4 shadow mt-3 " style="background-color: #060606; ">
+          <a class="navbar-brand text-white" href="#">Spotlight</a>
+           
+          <button class="btn btn-light d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  <i class="fa-solid fa-bars"></i>
+</button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " style="color: #0DC597;" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Portfolio</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Team</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Contact</a>
+              </li>
+
+
+            </ul>
+            <div>
+              <button type="button" class="btn  text-dark rounded-5" style="background-color: #0DC597;">Get
+                Started</button>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    
+<div class="offcanvas offcanvas-end w-100" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header bg-dark text-white">
+    <h5 class="offcanvas-title " id="staticBackdropLabel">Spotlight</h5>
+    <button type="button" class="btn-close   btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body bg-dark text-white">
+    <div>
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " style="color: #0DC597;" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Portfolio</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Team</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Contact</a>
+              </li>
+
+
+            </ul>
+    </div>
+  </div>
+</div>
+
+
+ 
+    <section class="poster container-fluid  " id="home">
+      <div class="row py-5">
+        <div class="col-lg-12 text-center py-5 mt-5">
+          <div class=" text-center mb-3 ">
+            <h4 class="" style="color: #0DC597;">Digital Innovation Agency</h4>
+          </div>
+
+          <div class="mb-3">
+            <h1 class="text-white" style="font-size: 3.5rem;  font-weight: 700;">Elevate Your Brand Through <br>
+              Technology</h1>
+          </div>
+
+          <div class="mb-4">
+            <p style="color: #A9AAA9; font-size: 1.25rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
+              architecto <br> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies <br> eget tempor
+              sit amet.</p>
+          </div>
+          <div>
+            <div class="d-grid g-3 d-md-block ">
+              <button class="btn  px-5 text-dark glow fw-bold p-2 m-2 " type="button"
+                style="background-color: #0EE6B0; font-size: 1rem; ">Launch Your Product</button>
+              <button class="btn border p-2 text-white view m-2" type="button">View Portfolio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="two container p-3 mb-5 py-5 " id="about">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 mb-3">
+          <img src="assests/image.png" alt="" class="img-fluid">
+
+        </div>
+
+        <div>
+          <div class="row  d-flex justify-content-center g-0  w-100  position-relative">
+
+            <div class="position-absolute p-5  w-100" style="top: -120px;">
+              <div class="d-flex justify-content-center bg-dark  p-3 shadow rounded-4 ">
+                <div class="col-lg-4 col-sm-4 text-center ">
+                  <div class="">
+                    <h4 style="color: #0EE6B0; font-size: 2.25rem;">200</h4>
+                    <p class="text-secondary">Delivered Projects</p>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-4 text-center">
+                  <h4 style="color: #0EE6B0; font-size: 2.25rem;">98</h4>
+                  <p class="text-secondary">Happy Clients</p>
+                </div>
+
+
+
+                <div class="col-lg-4 col-sm-4 text-center">
+                  <h4 style="color: #0EE6B0; font-size: 2.25rem;">32</h4>
+                  <p class="text-secondary">Creative Minds</p>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container mb-5">
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+
+          <img src="assests/lamp.webp" class="img-fluid" >
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+          <div class="mt-3">
+            <div class="w-25 text-center px-2 rounded-1 mb-3" style="background-color: #1a5c4c;">
+              <p class="fw-bold p-1 mb-2" style="color: #0EE6B0;">Who We are</p>
+            </div>
+
+            <div class="mb-4">
+              <h1 class="text-white fs-1 fw-bold">Crafting Tomorrow's Digital Landscape Today</h1>
+            </div>
+
+            <div class="mb-5">
+              <p style="color:#fff;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet ante. Donec eu
+                libero sit amet quam egestas semper.</p>
+            </div>
+
+
+            <div class="border-bottom text-white ">
+              <div class="d-flex">
+                <p class="me-3 fs-5" style="color: #0DC597; font-weight: 800;">01</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+              </div>
+            </div>
+
+
+
+            <div class="border-bottom text-white">
+              <div class="d-flex">
+                <p class="me-3 fs-5" style="color: #0DC597; font-weight: 800;">02</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+              </div>
+            </div>
+
+
+            <div class="mb-3">
+              <div class="d-flex text-white">
+                <p class="me-3 fs-5" style="color: #0DC597; font-weight: 800;">03</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+              </div>
+            </div>
+
+
+            <div>
+              <button class="btn border p-2 text-white views m-2 px-5 fw-bold" type="button">Explore Futher</button>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section class="container justify-content-center align-items-center ">
+      <div class="row  ">
+        <div class="col-lg-4 mb-3">
+          <div class="card p-1 m-0 change" style="background-color: #4f5050;">
+
+            <div class="d-flex align-items-center justify-content-center ">
+              <div class=" p-3 rounded-5" style="color: #0EE6B0; background-color: #1a5c4c;">
+                <i class="fa-solid fa-house"></i>
+              </div>
+
+              <div class="mt-4 ms-3">
+                <h5 class="p-0 m-0 fw-bold" style="color: #0EE6B0;">750+</h5>
+                <p style="color: #c9c9c9;">Satisfied Customers</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-3">
+
+          <div class="card p-1 m-0 change" style="background-color: #4f5050;">
+
+            <div class="d-flex align-items-center justify-content-center ">
+              <div class=" p-3 rounded-5" style="color: #0EE6B0; background-color: #1a5c4c;">
+                <i class="fa-solid fa-house"></i>
+              </div>
+
+              <div class="mt-4 ms-3">
+                <h5 class="p-0 m-0 fw-bold" style="color: #0EE6B0;">1200+</h5>
+                <p style="color: #c9c9c9;">Projects Delivered</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4  mb-3 ">
+          <div class="card p-1 m-0 change" style="background-color: #4f5050;">
+
+            <div class="d-flex align-items-center justify-content-center ">
+              <div class=" p-3 rounded-5" style="color: #0EE6B0; background-color: #1a5c4c;">
+                <i class="fa-solid fa-house"></i>
+              </div>
+
+              <div class="mt-4 ms-3">
+                <h5 class="p-0 m-0 fw-bold" style="color: #0EE6B0;">35+</h5>
+                <p style="color: #c9c9c9;">Industry Awards</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container mb-5 ">
+        <div class="py-5">
+          <div class="text-center text-white">
+            <h4 class="mb-3 fs-1">Services</h4>
+          </div>
+
+          <div>
+            <p class="text-white text-center mb-5 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+              <div class="card rounded-1 p-2 some " style="background-color: #737473;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+                    <i class="fa-brands fa-slack"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Visual Identity Craf ting</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 mb-4 ">
+              <div class="card rounded-1 p-2 some " style="background-color: #868a88;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Interface & Experience Design</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 mb-4 ">
+              <div class="card rounded-1 p-2 some " style="background-color: #868a88;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Custom Web Solutions</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 mb-4 ">
+              <div class="card rounded-1 p-2 some " style="background-color: #868a88;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+                    <i class="fa-solid fa-mobile"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Mobile Experience Design</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-4 ">
+              <div class="card rounded-1 p-2 some " style="background-color: #868a88;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+                    <i class="fa-solid fa-bullhorn"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Online Growth Strategy</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-6 mb-4">
+              <div class="card rounded-1 p-2 some " style="background-color: #868a88;">
+
+                <div class="d-flex justify-content-center align-items-center  ">
+                  <div class="p-3 rounded-5 ms-5 me-3" style="background-color: #2fa588;">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+
+                  <div class="mt-3">
+                    <h4 class="text-white">Search Visibility Enhancement</h4>
+                    <p class="p-0 m-0 mb-3" style="color: #424242;">Praesent sapien massa convallis a pellentesque nec
+                      egestas non nisi cras ultricies ligula.</p>
+
+                    <a class="icon-link icon-link-hover fs-6" href="#" style="color: #d3d3d3; text-decoration: none;">
+                      Explore
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                        <path
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mb-4">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-3">
+            <div class="d-flex justify-content-between align-items-center p-4 rounded-4"
+              style="background-color: #27f3e9;">
+
+
+              <div class="p-2">
+                <div>
+                  <h5 class="text-white">Elevate Your Brand to New Heights?</h5>
+                </div>
+                <div>
+                  <p>Collaborate with our experts and bring your vision to life seamlessly</p>
+                </div>
+              </div>
+
+
+              <div class="p-2">
+                <button type="button" class="btn btn-dark text-whiter rounded-4 shadow ">Being your project</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mb-3">
+      <div class="container">
+
+        <div class="text-center text-white">
+          <h4 class="mb-3">Portfolio</h4>
+
+          <p class="mb-2">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+
+
+
+        <div>
+
+          <div class="container py-5">
+            <div class="row gap-2  justify-content-center border-bottom p-3">
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <h5 style="color: #A9AAA9;">All Projects</h5>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <h5 style="color: #A9AAA9;">Web Design</h5>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <h5 style="color: #A9AAA9;">Mobile Apps</h5>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <h5 style="color: #A9AAA9;">Branding</h5>
+              </div>
+
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <h5 style="color: #A9AAA9;">UI/UX</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="main">
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style="max-width: 600px; background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/clan.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">Web Design</p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Interactive Commerce Hub</h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Donec sollicitudin molestie malesuada sed porttitor
+                              lectus nibh curabitur non nulla sit amet nisl.</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">React
+                                </p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">
+                                  Javascript</p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;"> AWS</p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style="max-width: 600px; background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/paint.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">Mobile App</p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Interactive Commerce Hub</h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Donec sollicitudin molestie malesuada sed porttitor
+                              lectus nibh curabitur non nulla sit amet nisl.</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">React
+                                </p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">
+                                  Javascript</p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;"> AWS</p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style="max-width: 650px; background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/cup.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">Branding</p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Contemporary Visual Identity</h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Donec sollicitudin molestie malesuada sed porttitor
+                              lectus nibh curabitur non nulla sit amet nisl..</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">
+                                  Illustrato</p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">Figma
+                                </p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">Brand
+                                </p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style=" background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/ukeliptas.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">UI/UX</p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Analytics Control Panel</h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Pellentesque in ipsum id orci porta dapibus curabitur
+                              aliquet quam id dui posuere blandit.</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">
+                                  Illustrato</p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">Figma
+                                </p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">Brand
+                                </p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style="max-width: 650px; background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/markplace.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">E-commerce
+                            </p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Online Marketplace Solution
+                            </h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Quisque velit nisi pretium ut lacinia in elementum id
+                              enim sed porttitor lectus nibh vivamus.
+
+                              .</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">
+                                  Illustrato</p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">Figma
+                                </p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">Brand
+                                </p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6">
+                <div class="card mb-3  rounded-4" style="max-width: 650px; background-color: #2C2C2C;">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img src="assests/digi.webp" class="img-fluid rounded-start  w-100 h-100 object-fit-cover"
+                        alt="...">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-3 ">
+
+                        <div>
+                          <div class="mt-2 p-1">
+                            <p class="w-50  text-center px-2 p-1 mb-3 rounded-1 "
+                              style="color: #0EE6B0; border: 1px solid #0DC597;">Fintech
+
+                            </p>
+                          </div>
+
+                          <div class="p-1">
+                            <h5 style="color: #fff;" class="mb-4">Digital Banking Interface
+
+                            </h5>
+                          </div>
+
+                          <div>
+                            <p style="color: #fff;" class="mb-4">Cras ultricies ligula sed magna dictum porta vestibulum
+                              ac diam sit amet quam vehicula elementum.
+
+                              .</p>
+                          </div>
+
+
+                          <div>
+                            <div class="row text-white justify-content-center align-items-center ">
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">
+                                  Illustrato</p>
+                              </div>
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color:#0EE6B0 ; background-color: #1a5c4c; ">Figma
+                                </p>
+                              </div>
+
+
+
+                              <div class="col-lg-4">
+                                <p class=" text-center p-1" style="color: #0EE6B0;  background-color: #1a5c4c;">Brand
+                                </p>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <section class="mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-3">
+            <div class="d-flex justify-content-between align-items-center p-4 rounded-4"
+              style="background-color: #27f3e9;">
+
+
+              <div class="p-2">
+                <div>
+                  <h5 class="text-dark fw-bold">Interested in collaborating on your next venture?</h5>
+                </div>
+                <div>
+                  <p>Let's transform your concepts into compelling digital experiences together
+
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="d-flex ">
+                <button type="button" class="btn btn-dark shadow  " style="color: #0EE6B0;">Launch your project</button>
+
+
+                <div class="ms-3">
+                  <button class="btn border p-2 text-white man m-2 " type="button">View Portfolio</button>
+
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-4 py-5">
+
+
+      <div class="text-center text-white">
+        <h4 class="mb-3 fs-1">Why Us</h4>
+
+        <p class="mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+        <h3 class="text-white fw-bold mb-4" style="font-size: 2rem;">The Reason Top Businesses <br> Partner With Us</h3>
+
+        <p class="text-white mb-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit <br> aut fugit, sed
+          quia consequuntur magni <br> dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-12 mb-3">
+                <div class="card  p-1 m-0 rounded-3 slam" style="background-color: #121F1C;">
+
+
+                  <div class="container p-1">
+                    <h5 class="text-white">Forward Thinking</h5>
+                    <p class="text-secondary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium.</p>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-12 mb-3">
+                <div class="card  p-1 m-0 rounded-3 slam" style="background-color: #121F1C;">
+
+
+                  <div class="container p-1">
+                    <h5 class="text-white">Insights-Powered Solutions</h5>
+                    <p class="text-secondary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium.</p>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+              <div class="col-lg-12 mb-3 ">
+                <div class="card  p-1 m-0 rounded-3 slam" style="background-color: #121F1C;">
+
+
+                  <div class="container p-1">
+                    <h5 class="text-white">Round-the-Clock Assistance</h5>
+                    <p class="text-secondary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      doloremque laudantium.</p>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+              <div class="d-grid g-3 d-md-block mb-3">
+                <button class="btn  px-5 text-dark glow fw-bold p-2 m-2 " type="button"
+                  style="background-color: #0EE6B0; font-size: 1rem; ">Launch Your Product</button>
+                <button class="btn border p-2 text-white view m-2" type="button">Browser our Work</button>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-6  text-center">
+            <img src="assests/left.webp" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card motion mb-3" style="background-color: #2C2C2C;">
+              <div class="d-flex justify-content-between px-4 mt-3 mb-3">
+                <div>
+                  <i class="fa-solid fa-paint-roller" style="color: #0EE6B0;"></i>
+                </div>
+
+
+                <div>
+                  <h4 class="p-0 m-0" style="color: #0EE6B0;">95</h4>
+                  <p class="p-0 m-0 text-secondary">% Satisfaction</p>
+                </div>
+
+              </div>
+
+              <div class="container">
+                <h4 class="text-white">Creative Mastery</h4>
+                <p class="text-secondary">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                  nihil molestiae consequatur illum.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card motion mb-3" style="background-color: #2C2C2C;">
+              <div class="d-flex justify-content-between px-4 mt-3 mb-3">
+                <div>
+                  <i class="fa-solid fa-paint-roller" style="color: #0EE6B0;"></i>
+                </div>
+
+
+                <div>
+                  <h4 class="p-0 m-0" style="color: #0EE6B0;">200</h4>
+                  <p class="p-0 m-0 text-secondary">% ROI Growth</p>
+                </div>
+
+              </div>
+
+              <div class="container">
+                <h4 class="text-white">Measurable Impact</h4>
+                <p class="text-secondary">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                  laboriosam nisi aliquid commodi.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card motion mb-3" style="background-color: #2C2C2C;">
+              <div class="d-flex justify-content-between px-4 mt-3 mb-3">
+                <div>
+                  <i class="fa-solid fa-paint-roller" style="color: #0EE6B0;"></i>
+                </div>
+
+
+                <div>
+                  <h4 class="p-0 m-0" style="color: #0EE6B0;">50</h4>
+                  <p class="p-0 m-0 text-secondary">+ Honors</p>
+                </div>
+
+
+
+
+              </div>
+
+              <div class="container">
+                <h4 class="text-white">Skilled Professionals</h4>
+                <p class="text-secondary">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                  saepe eveniet ut voluptates repudiandae.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container">
+        <div class="text-center text-white">
+          <h4>Team</h4>
+          <p class="text-white mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+          </p>
+        </div>
+
+
+        <div>
+          <div class="row mt-4">
+            <div class="col-lg-3">
+              <img src="assests/design.webp" class="img-fluid mb-3 rounded-4" alt="">
+              <h5 class="text-white text-center">Olivia Martinez</h5>
+              <p class="text-center" style="color: #0DC597;">Design Lead</p>
+            </div>
+
+
+            <div class="col-lg-3">
+              <img src="assests/eng.webp" class="img-fluid mb-3 rounded-4" alt="">
+              <h5 class="text-white text-center">James Cooper</h5>
+              <p class="text-center" style="color: #0DC597;">Engineering Lead</p>
+            </div>
+
+
+            <div class="col-lg-3">
+              <img src="assests/st.webp" class="img-fluid mb-3 rounded-4" alt="">
+              <h5 class="text-white text-center">Natalie Brooks</h5>
+              <p class="text-center" style="color: #0DC597;">Strategy Director</p>
+            </div>
+
+
+            <div class="col-lg-3">
+              <img src="assests/ex.webp" class="img-fluid mb-3 rounded-4" alt="">
+              <h5 class="text-white text-center">Ryan Nakamura</h5>
+              <p class="text-center" style="color: #22e4b3;">Experience Designer</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container mt-5 mb-4  ">
+      <div class="row justify-content-center align-items-center ">
+        <div class="col-lg-10">
+          <div class="container">
+            <div class="row justify-content-center rounded-4" style="background-color: #65ffd8;">
+              <div class="col-lg-6 ">
+                <p>Careers</p>
+
+                <h4 class="fw-bold mb-3">Shape the Future With Us</h4>
+                <p class="mb-3">Itaque earum rerum hic tenetur a sapiente delectus ut aut reiciendis voluptatibus
+                  maiores alias consequatur perferendis doloribus.</p>
+              </div>
+              <div class="col-lg-6  d-flex justify-content-center align-items-center">
+                <div>
+                  <button class="btn btn-dark mb-2">Explore opportunihi</button> <br>
+                  <button class="btn  border border-dark px-4 text-dark vaw  m-2" type="button">Our values </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="container p-1">
+
+        <div class="row">
+          <div class="col-lg-4 mb-2">
+            <div class="card vb" style="background-color: #2C2C2C;">
+
+
+              <div class="text-white text-center justify-content-center d-flex align-items-center flex-column mt-4">
+                <div class="p-3 mb-3 rounded-5" style="background:#1a5c4c ;">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                  <h5>Drop a Line</h5>
+                </div>
+
+                <div>
+                  <h6>support@example.com</h6>
+                </div>
+
+                <div>
+                  <p style="font-size:0.90rem;">Replies within 3-5 hours</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div class="card vb" style="background-color: #2C2C2C;">
+
+
+              <div class="text-white text-center justify-content-center d-flex align-items-center flex-column mt-4">
+                <div class="p-3 mb-3 rounded-5" style="background:#1a5c4c ;">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                  <h5>Give Us a Ring</h5>
+                </div>
+
+                <div>
+                  <h6>+1 (555) 472-8190
+
+                  </h6>
+                </div>
+
+                <div>
+                  <p style="font-size:0.90rem;">Weekdays 8AM - 7PM CST</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-2">
+            <div class="card vb" style="background-color: #2C2C2C;">
+
+
+              <div class="text-white text-center justify-content-center d-flex align-items-center flex-column mt-4">
+                <div class="p-3 mb-3 rounded-5" style="background:#1a5c4c ;">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                  <h5>Stop By
+                  </h5>
+                </div>
+
+                <div>
+                  <h6>1632 Maple Avenue, Austin, TX 73301
+
+                  </h6>
+                </div>
+
+                <div>
+                  <p style="font-size:0.90rem;">Mon through Fri, 9 to 5
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="mb-5 p-3">
+      <div class="container mt-5 p-1 mb-3">
+        <div class="row justify-content-center align-items-center " style="background-color: #737473;">
+          <div class="col-lg-5  5  d-flex align-items-center justify-content-center rounded-start flex-column "
+            style="background-color: #0EE6B0; height: 600px;">
+            <div>
+              <h4>Eager to Bring Your Vision to Life?</h4>
+            </div>
+
+            <div>
+              <p class="d-flex justify-content-center align-items-center ms-5">Nemo enim ipsam voluptatem quia voluptas
+                sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt.</p>
+            </div>
+
+
+            <div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <h5>12h</h5>
+                  <p>Avg. Response</p>
+                </div>
+
+                <div class="col-lg-4">
+                  <h5>97%</h5>
+                  <p>Happy Clients</p>
+                </div>
+
+
+
+                <div class="col-lg-4">
+                  <h5>230+</h5>
+                  <p>Works Complete</p>
+                </div>
+
+
+              </div>
+
+              <hr>
+
+              <h5>Follow Our Journey</h5>
+
+              <div>
+                <i class="fa-brands fa-linkedin "></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 mb-3">
+
+            <div class="container">
+              <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+              </div>
+
+              <div>
+                <h4>Share Your Thoughts</h4>
+              </div>
+              <div>
+                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim laborum
+                  est.</p>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Anurag Shende">
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Topic</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="What can i help us ?">
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                </div>
+              </div>
+
+              <button class="btn rounded-2 px-5  text-dark fw-bold mb-2" style="background: #27f3e9;">Dispatch Message
+              </button>
+            </div>
+          </div>
+    </section>
+
+    <section class="" style="background-color: #01020E;">
+      <div class="container-fluid pt-5">
+        <div class="row text-white justify-content-center align-items-center  p-0 m-0">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div>
+              <h1>Spotlight</h1>
+            </div>
+
+            <div>
+              <p class="m-0 p-0">A108 Adam Street</p>
+              <p class="m-0 p-0" >New York, NY 535022</p>
+
+              <p class="m-0 p-0">Phone: +1 5589 55488 55</p>
+              <p>Email: info@example.com</p>
+            </div>
+
+            <div>
+
+            </div>
+          </div>
+          <div class="col-lg-2 mb-3">
+            <div>
+              <h4>Useful Links</h4>
+
+              <ul class="p-0 m-0" style="list-style: none;">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Services</li>
+                <li>Terms of service</li>
+                <li>Privacy policy</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-3">
+
+            <h4>Our Services</h4>
+            <ul class="p-0 m-0" style="list-style: none;">
+              <li>Web Design</li>
+              <li>Web Development</li>
+              <li>Product Management</li>
+              <li>Marketing</li>
+              <li>Graphic Design</li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-2 mb-3">
+            <div>
+              <h5>Hic solutasetp</h5>
+              <ul  class="p-0 m-0" style="list-style: none;">
+                <li>Molestiae accusamus iure</li>
+                <li>Excepturi dignissimos</li>
+                <li>Suscipit distinctio</li>
+                <li>Dilecta</li>
+                <li>Sit quas consectetur</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-3">
+            <div>
+              <h4>Nobis illum</h4>
+              <ul class="p-0 m-0" style="list-style: none;">
+                <li>Ipsam</li>
+                <li>Laudantium dolorum</li>
+                <li>Dinera</li>
+                <li>Trodelas</li>
+                <li>Flexo</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="mt-4">
+          <div class="text-center text-white mt-3">
+            <p class="m-0 p-0">© Copyright Spotlight All Rights Reserved</p>
+            <p>Designed by <span><a style="text-decoration: none;" href="#">Anurag</a></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

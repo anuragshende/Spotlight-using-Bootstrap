@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.glow
+{
+        transition: all 0.2s ease-in;
+
+}
+
+
+.glow:hover
+{
+    transform: translateY(-2px);
+       box-shadow: 
+        0 0 10px #19c39c,
+        0 0 20px #19c39c,
+        0 0 40px rgba(25,195,156,0.6);
+   
+}
+
+
+.view:hover 
+{
+    transform: translateY(-2px);
+     border: 1px solid #19c39c !important;
+     color: aqua !important;
+}
+
+.view
+{
+    transition: all 0.2s ease-in;
+}
+
+
+
+.views
+{
+    transition: all 0.2s ease-in;
+}
+
+.views
+{
+             border: 2px solid #22fdca !important;
+             color: #26f8c7 !important;
+
+  }
+
+
+  .views:hover
+  {
+    background-color: #1ef5c3;
+    color: black !important;
+  }
+
+
+  .change
+  {
+    transition: all 0.2s ease-in;
+
+  }
+
+  .change:hover
+  {
+    transform: translateY(-3px);
+     box-shadow: 
+        0 0 10px #515252,
+        0 0 20px #3f3f3f,
+        0 0 40px rgba(66, 66, 66, 0.6);
+        cursor: pointer;
+   
+  }
+
+
+  .some
+  {
+    transition: all 0.2s ease-in;
+  }
+
+  .some:hover
+  {
+      border: 2px solid #22fdca;
+         cursor: pointer;
+  }
+
+
+  .man
+  {
+      border: 1px solid #000 !important;
+             color: #000 !important;
+
+  }
+
+
+  .slam
+  {
+    transition: all 0.58s ease-in;
+  }
+
+  .slam:hover
+  {
+    transform: translateX(5px);
+    box-shadow: 
+        0 0 10px #484949,
+        0 0 20px #494949,
+        0 0 40px rgba(71, 70, 70, 0.6);
+        cursor: pointer;
+    
+  }
+
+
+
+  .motion
+  {
+    transition: all 0.25s ease-in;
+  }
+
+  .motion:hover
+  {
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
+
+
+  .vb
+  {
+    transition: all 0.55s ease-in;
+  }
+
+  .vb:hover
+  {
+         transform: translateY(-4px);
+         cursor: pointer;
+  }
